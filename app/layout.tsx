@@ -1,9 +1,12 @@
-import './globals.css'
+// "use client"; //bad practice  -> because, now u cant any server component here
+
+// import "./globals.css";
+// import { ChakraProvider } from "@chakra-ui/react";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -12,7 +15,11 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+
+        {/* <ChakraProvider>{children}</ChakraProvider> */}
+        {children}
+      </body>
     </html>
-  )
+  );
 }
