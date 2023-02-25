@@ -6,7 +6,7 @@ import Tick from "../public/Tick.svg"
 
 const PricingCard = () => {
   return (
-    <Box px={[4,4,0]} maxW="950px" mx={"auto"} w="full" mt="-190px" >
+    <Box px={[4,4,4,0]} maxW="950px" mx={"auto"} w="full" mt="-190px" >
       <Flex  direction={["column-reverse","column-reverse" ,"column-reverse", "row"]} rounded={"2xl"} boxShadow='lg' overflow="hidden" >
         
         <Box pt="50px" px="50px" bg="white">
@@ -32,7 +32,7 @@ const PricingCard = () => {
 
         </Box>
 
-        <Box bg={"#f0eafb"} p={["60px"]} w="full" maxW={"400px"} textAlign={"center"} >
+        <Box bg={"#f0eafb"} p={["60px"]} w="full" maxW={["full","full","full","400px"]} textAlign={"center"} >
           <Text fontWeight={"bold"} fontSize={"24px"}>
             Premium PRO
           </Text>
