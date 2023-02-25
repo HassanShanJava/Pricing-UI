@@ -6,8 +6,8 @@ import Tick from "../public/Tick.svg"
 
 const PricingCard = () => {
   return (
-    <Box  maxW="950px" mx="auto" w="full" >
-      <Flex position={"absolute"}   top="225px" rounded={"2xl"} boxShadow='lg' overflow="hidden" >
+    <Box  maxW="950px" mx="auto" w="full" mt="-190px" >
+      <Flex  rounded={"2xl"} boxShadow='lg' overflow="hidden" >
         <Box bg={"#f0eafb"} p={"60px"}  textAlign={"center"}>
           <Text fontWeight={"bold"} fontSize={"24px"}>
             Premium PRO

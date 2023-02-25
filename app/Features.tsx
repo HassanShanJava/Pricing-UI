@@ -1,8 +1,23 @@
+import { Box, HStack } from '@chakra-ui/react'
 import React from 'react'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <Box>
+        <HStack>
+            <HStack>
+
+            </HStack>
+            
+            <HStack>
+                
+            </HStack>
+            
+            <HStack>
+
+            </HStack>
+        </HStack>
+    </Box>
   )
 }
 
